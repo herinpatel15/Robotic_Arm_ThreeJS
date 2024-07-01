@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+
+  .canvas {
+    width: 50%;
+    height: 80%;
+    background-color: rgb(211, 211, 211);
+    border-radius: 50px;
+  }
+
+  .control {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    .range {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      gap: 0.5rem;
+    }
+
+    .range-btn {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+
+      button {
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: 0;
+        font-size: large;
+      }
+    }
+  }
+
+  input {
+    width: 20vw;
+  }
+}
+
+.test {
+  transform-origin: bottom;
+}
+
+strong {
+  font-size: 1.5rem;
+}
+
+.keyBox {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  span {
+    width: 15px;
+    height: 15px;
+    background-color: rgb(28, 255, 40);
+    border-radius: 100px;
+  }
+}
