@@ -1,8 +1,6 @@
-# React + Vite
+#__Robotic Arm__
+##_React Three Js_
+<hr/>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+###_make a some cube in react __ThreeJS__ and rotate using input range_
+###__if any one make this type of project using 3D model, then use URDF file to intarect model and render in __ThreeJs__ __
